@@ -118,7 +118,7 @@ class Rsvp extends Component {
                                                     <option disabled value="">I Am Attending*</option>
                                                     <option value="Not attending">Not attending</option>
                                                     <option value="Wedding ceremony">Wedding ceremony</option>
-                                                    <option value="Wedding party">Reception party</option>
+                                                    <option value="Wedding reception">Wedding reception</option>
                                                     <option value="All events">All events</option>
                                                 </select>
                                                 <p>{error.events ? error.events : ''}</p>

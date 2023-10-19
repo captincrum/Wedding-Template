@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, } from 'reactstrap';
 import classnames from 'classnames';
-import {Link} from 'react-router-dom'
 import Sectiontitle from '../section-title'
 import bride1 from '../../images/groomsmen-bridesmaid/1.jpg'
 import bride2 from '../../images/groomsmen-bridesmaid/2.jpg'
@@ -12,8 +11,6 @@ import bride6 from '../../images/groomsmen-bridesmaid/7.jpg'
 import bride7 from '../../images/groomsmen-bridesmaid/6.jpg'
 import bride8 from '../../images/groomsmen-bridesmaid/8.jpg'
 import bride9 from '../../images/groomsmen-bridesmaid/9.jpg'
-import bride10 from '../../images/groomsmen-bridesmaid/10.jpg'
-
 import './style.css'
 
 const People = (props) => {
@@ -59,7 +56,7 @@ const People = (props) => {
                                             </div>
                                             <div className="person-content">
                                                 <h3>Jason Gorski</h3>
-                                                <span>Best Friend</span>
+                                                <span>Best Man</span>
                                             </div>
                                         </div>
                                     </div>

@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import strory1 from '../../images/story/1.jpg'
 import strory2 from '../../images/story/2.jpg'
 import strory3 from '../../images/story/3.jpg'
@@ -53,8 +52,9 @@ const Story = () =>{
                                         </div>
                                         <h2>Our First Vacation</h2>
                                         <span className="date">July 1, 2022</span>
-                                        <p>The days turned into weeks which turned into months. Rachel and Shawn were excited to introduce each other to their friends and families. Their first vacation out of Colorado together was to meet Rachel’s family in Chicago.</p>
+                                        <p>The days turned into weeks which turned into months. Rachel and Shawn were excited to introduce each other to their friends and families. Their first vacation together was to meet Rachel’s family in Chicago followed shortly by visiting Shawn's family in New Jersey.</p>
                                         <p>Rachel showed Shawn all around the city, took him to a Cubs game (Go Cubs!), and showed him around Loyola, with the hopes of one day returning there to marry him.</p>
+                                        <p>Shawn showed Rachel his favorite places in New Jersey and his mom toured them both around The Big Apple!</p>
                                     </div>
                                 </div>
                                 <div className="item">

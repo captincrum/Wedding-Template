@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 import Sectiontitle from '../section-title'
 import couple1 from '../../images/couple/img-1.jpg'
 import couple2 from '../../images/couple/img-2.jpg'
@@ -22,7 +21,7 @@ const Couple = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>RACHEL CLINE</h3>
-                                            <p>Hi, I am Rachel. I am a therapist working toward my LCSW. I love working with kids and their families. I enjoy hiking, reading, watching TV, and snuggling with Zelda.</p>
+                                            <p>Hi, I am Rachel. I am a therapist working toward my LCSW. I love working with kids and their families. I enjoy hiking, reading, watching TV, and snuggling with Zelda.. P.S. I made the website content.</p>
                                         </div>
                                     </div>
                                 </div>

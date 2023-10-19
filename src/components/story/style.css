@@ -196,7 +196,7 @@ Story-Area
 }
 
 .story .item:nth-child(even) .story-content {
-    text-align: right;
+    text-align: left;
 }
 .story .item:nth-child(even) .story-content .date {
     text-align: right;
