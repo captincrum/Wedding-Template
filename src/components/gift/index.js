@@ -50,7 +50,7 @@ class Gift extends Component {
                     <div className="col-12">
                       <div className="section-title text-center">
                           <h2>Gift Registration</h2>
-                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised.</p>
+                          <p>Here are some of the locations Rachel and Shawn have registered at.</p>
                       </div>
                   </div>
                   <div className="row gift-item">

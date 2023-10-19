@@ -1,3 +1,4 @@
+import emailjs from '@emailjs/browser';
 import React, { Component } from 'react';
 import './style.css'
 
@@ -25,6 +26,8 @@ class Rsvp extends Component {
 
     subimtHandler = (e) => {
         e.preventDefault();
+
+        emailjs.sendForm('service_2sqvkbe', 'template_61ez1us', e.target, '8zoaPKPBJ3U8caeHC')
 
         const { name,
             email,
@@ -102,6 +105,7 @@ class Rsvp extends Component {
                                             <div className="col col-sm-6 col-12">
                                                 <select className="form-control" onChange={this.changeHandler} value={rsvp} name="rsvp">
                                                     <option disabled value="">Number Of rsvp*</option>
+                                                    <option value="0">0</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
                                                     <option value="3">3</option>
@@ -112,9 +116,10 @@ class Rsvp extends Component {
                                             <div className="col col-sm-6 col-12">
                                                 <select className="form-control" onChange={this.changeHandler} value={events} name="events">
                                                     <option disabled value="">I Am Attending*</option>
-                                                    <option value="1">All events</option>
-                                                    <option value="2">Wedding ceremony</option>
-                                                    <option value="3">Reception party</option>
+                                                    <option value="Not attending">Not attending</option>
+                                                    <option value="Wedding ceremony">Wedding ceremony</option>
+                                                    <option value="Wedding party">Reception party</option>
+                                                    <option value="All events">All events</option>
                                                 </select>
                                                 <p>{error.events ? error.events : ''}</p>
                                             </div>

@@ -40,7 +40,7 @@ const Couple = () => {
                                     <div className="couple-text">
                                         <div className="couple-content">
                                             <h3>SHAWN MCCRUM</h3>
-                                            <p>Hi I am Shawn. I am a System Specialist for DVS. I enjoy working with technology in all capacities. I enjoy learning new things, puzzles, traveling, and being with family.</p>
+                                            <p>Hi I am Shawn. I am a System Specialist for DVS. I enjoy working with technology in all capacities (in fact I made this website). I enjoy learning new things, puzzles, traveling, and being with family.</p>
                                         </div>
                                     </div>
                                 </div>

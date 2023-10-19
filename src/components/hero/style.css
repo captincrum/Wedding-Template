@@ -23,7 +23,7 @@
 .item2{
     background: url(../../images/slider/2.jpg);
     height: 950px;
-     display: flex!important;
+    display: flex!important;
     justify-content: center;
     flex-direction: column;
     width: 100%;

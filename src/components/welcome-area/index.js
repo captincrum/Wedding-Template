@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './style.css'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Welcome = () =>{
@@ -11,9 +12,9 @@ const Welcome = () =>{
                     <div className="col-lg-12">
                         <div className="welcome-content">
                             <h2>Welcome to our big day</h2>
-                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or less normal distribution of letters</p>
-                            <div className="btn"><Link to="/home">RSVP</Link></div>
-                            <div className="btn"><Link to="/home">Location</Link></div>
+                            <p>We have been looking forward to this day for a long time. We are blessed to be able to share our special day with our closest friends and family. We hope everyone has the opportunity to witness our marriage and celebrate our new journey in life.</p>
+                            <div className="btn"><AnchorLink href='#rsvp'>Rsvp</AnchorLink></div>
+                            <div className="btn"><AnchorLink href='#event'>Location</AnchorLink></div>
                         </div>
                     </div>
                 </div>

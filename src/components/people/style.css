@@ -117,14 +117,17 @@ person-area
     border-radius: 0;
     cursor: pointer;
 }
+
 .person-btn ul li:last-child a {
      border-right:none;
 }
+
 .person-btn .nav-tabs .nav-item.show .nav-link, 
 .person-btn .nav-tabs .nav-link.active{
     background: #4e7b72;
     color: #fff;
 }
+
 .person-btn .nav-tabs .nav-item .nav-link:hover{
     background: #4e7b72;
     color: #fff;
