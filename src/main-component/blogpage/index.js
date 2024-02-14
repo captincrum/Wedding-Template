@@ -8,6 +8,7 @@ import mediaimg2 from '../../images/blog/img-8.jpg'
 import mediaimg3 from '../../images/blog/img-9.jpg'
 import mediaimg4 from '../../images/blog/author.jpg'
 import mediaimg5 from '../../images/blog/img-10.jpg'
+import mediaimg6 from '../../images/blog/author2.jpg'
 
 import './style.css'
 
@@ -50,18 +51,17 @@ const BlogPage = () => {
                                 <div className="details">
                                     <ul className="entry-meta">
                                         <li>
-                                            <img src={mediaimg4} alt=""/>
+                                            <img src={mediaimg6} alt=""/>
                                             &nbsp; By <Link to="/blog">Rachel Cline</Link>
                                         </li>
                                         <li>Octobor 12,2019</li>
                                     </ul>
-                                    <h3><Link to='/Blog-details'>Stroll Through Wrigleyville</Link></h3>
+                                    <h3>Stroll Through Wrigleyville</h3>
                                     <p>Location: 1060 W Addison St, Chicago, IL 60613</p>
                                     <p></p>
                                     <p></p>
                                     <p></p>
                                     <p></p>
-                                    <Link to='/Blog-details'>Read More..</Link>
                                 </div>
                             </div>
                                 <div className="post">
@@ -71,18 +71,17 @@ const BlogPage = () => {
                                 <div className="details">
                                     <ul className="entry-meta">
                                         <li>
-                                            <img src={mediaimg4} alt=""/>
+                                            <img src={mediaimg6} alt=""/>
                                             &nbsp; By <Link to="/blog">Rachel Cline</Link>
                                         </li>
                                         <li>Octobor 12,2019</li>
                                     </ul>
-                                    <h3><Link to='/Blog-details'>Shop on Michigan Avenue and Oak Street</Link></h3>
+                                    <h3>Shop on Michigan Avenue and Oak Street</h3>
                                     <p>Location: 55 E Grand Ave, Chicago, IL 60611</p>
                                     <p></p>
                                     <p></p>
                                     <p></p>
                                     <p></p>
-                                    <Link to='/Blog-details'>Read More..</Link>
                                 </div>
                             </div>
                             <div className="post">
@@ -93,20 +92,17 @@ const BlogPage = () => {
                                     <ul className="entry-meta">
                                         <li>
                                             <img src={mediaimg4} alt=""/>
-                                            &nbsp; By <Link to="/blog">Lily Anne</Link>
+                                            &nbsp; By <Link to="/blog">Shawn McCrum</Link>
                                         </li>
                                         <li>Octobor 12,2019</li>
                                     </ul>
-                                    <h3><Link to='/Blog-details'>Chicago Architecture Tour</Link></h3>
+                                    <h3>Chicago Architecture Tour</h3>
                                     <p>Location: 465 N McClurg Ct, Chicago, IL 60611</p>
                                     <p></p>
                                     <p></p>
                                     <p></p>
                                     <p></p>
-                                    <Link to='/Blog-details'>Read More..</Link>
                                 </div>
-                            </div>
-                            <div className="pagination-wrapper pagination-wrapper-left">
                             </div>
                         </div>
                     </div>

@@ -1,11 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
-import BlogSidebar from '../../components/BlogSidebar'
 import Breadcrumbs from '../../components/breadcrumbs'
 import Navbar2 from '../../components/Navbar2'
-import mediaimg1 from '../../images/blog/img-7.jpg'
-import mediaimg4 from '../../images/blog/author.jpg'
-
+import mediaimg1 from '../../images/blog/img-1.jpg'
+import mediaimg2 from '../../images/blog/img-2.jpg'
 import './style.css'
 
 const BlogPage = () => {
@@ -13,37 +10,48 @@ const BlogPage = () => {
     return (
         <div id="home" className="BlogPage-br">
             <Navbar2 />
-            <Breadcrumbs Blog={'Blog Details'} Blogd={'Blog Details'}/>
-            <div className="blog-pg-section blog-single-section">
-                <div className="container">
+            <Breadcrumbs Blog={'Where to Stay'}/>
+            <div className="container">
+                <div className="Ceremony-wrap">
                     <div className="row">
-                        <div className="col col-lg-8 col-12 col-12">
-                            <div className="blog-posts blog-posts-2 clearfix">
-                                <div className="post">
-                                    <div className="entry-media">
-                                        <img src={mediaimg1} alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <ul className="entry-meta">
-                                            <li>
-                                                <img src={mediaimg4} alt="" />
-                                                &nbsp; By <Link to="/Blog-details">Shawn McCrum</Link>
-                                            </li>
-                                            <li>February 13,2024</li>
-                                        </ul>
-                                        <h3>Visit Cloud Gate.. (AKA: The Bean)</h3>
-                                        <p><b>Location: 201 E Randolph St, Chicago, IL 60602</b></p>
-                                        <p>Cloud Gate (nicknamed The Bean) is a public sculpture created by Indian-born British artist Anish Kapoor. The Bean has become the centerpiece of AT&T Plaza at Millennium Park since its construction in 2004.</p>
-                                        <p>After opening to the public in 2006 The Bean quickly gained a reputation for being one of the most photogenic locations in Chicago. To this day, The Bean is a hallmark of the Chicago area and has attracted visitors from around the world.</p>
-                                        <p>The underside of the sculpture is called the omphalos. The omphalos consists of an indentation whose mirrored surface provides multiple reflections of any subject situated beneath it. The apex of the omphalos is 27 feet above the ground. The concave underside allows visitors to walk underneath to see the omphalos, and through its arch to the other side so that they view the entire structure.</p>
-                                        <p>Inspired by liquid mercury, the surface of The Bean distorts and reflects the beautiful Chicago Skyline as well as the hustle and bustle of the city. The artist intended for The Bean to be interactive and encourages the viewer to look at the sculpture from all angles. To maintain its sheen The Bean gets wiped down and power washed daily, and twice a year it gets a thorough cleaning with 40 gallons of liquid detergent.</p>
-                                        <p>Consisting of 168 stainless steel plates, weighing in at an astonishing 110 tons, and measuring 33ft x 42ft x 66ft this bean is really something to be seen! </p>
-                                    </div>
-                                </div>
+                        <div className="col-lg-7">
+                            <div className="ceromony-content ceromony-content2">
+                                <h3>The Peninsula Chicago</h3>
+                                <span>Address: 108 E. Superior Street, Chicago, Il 60611</span>
+                                <span>Phone: 312-337-2888</span>
+                                <p>Enjoy the finest hospitality at the world renown hotel; The Peninsula. Relax at the Peninsula Spa. Experience an afternoon at the European café and wine bar (Pierrot Gourmet). Explore the city by learning more about its history on a private boat tour. Most importantly, have fun!</p>
+                                <p>Guests may <b>call the hotel</b> directly and ask for <b>Room Reservations</b>. The block is held under the name <b>Cline-McCrum</b></p>
+                                <p>Guests may use the link below to reserve a room. The room will automatically be added to the <b>Cline-McCrum</b> block of rooms.</p>
+                                <p><b>Transportation will be available from hotel to the church and back to the hotel following the service.</b></p>
+                                <h5><a href="https://secure.peninsula.com/?adult=2&arrive=2024-09-20&chain=5440&child=0&currency=USD&depart=2024-09-22&group=CLIN092024&hotel=12602&level=hotel&locale=en-GB&rooms=1" target="_blank" rel="noopener noreferrer"><b><u>Reserve a room online by clicking here!</u></b></a></h5>
                             </div>
                         </div>
-                        <div className="col col-md-4 col-12">
-                            <BlogSidebar />
+                        <div className="col-lg-5">
+                            <div className="ceromony-img">
+                                <img src={mediaimg1} alt=""/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="service-area-menu">
+                    <div className="Ceremony-wrap">
+                        <div className="row">
+                            <div className="col-lg-5">
+                                <div className="ceromony-img">
+                                    <img src={mediaimg2} alt=""/>
+                                </div>
+                            </div>
+                            <div className="col-lg-7">
+                                <div className="ceromony-content">
+                                    <h3>Chicago Marriott Downtown Magnificent Mile</h3>
+                                    <span>Address: 540 Michigan Avenue Chicago, IL 60611</span>
+                                    <span>Phone: 1 312-836-0100</span>
+                                    <p>Guests may call the hotel directly and ask for the <b>Cline McCrum Wedding Room Block</b></p>
+                                    <p>Guests may use the link below to reserve a room. The room will automatically be added to the <b>Cline McCrum Wedding Room Block.</b></p>
+                                    <p><b>Transportation will be available from hotel to the church and back to the hotel following the service.</b></p>
+                                    <h5><a href="" target="_blank" rel="noopener noreferrer"><b><u>Reserve a room online by clicking here!</u></b></a></h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

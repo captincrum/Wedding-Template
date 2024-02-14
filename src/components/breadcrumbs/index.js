@@ -12,7 +12,6 @@ const Breadcrumbs = ( props ) =>{
                     <div className="col col-xs-12">
                         <h2>{props.Blog}</h2>
                         <ol className="breadcrumb">
-                            <li><Link to='/home'>Home</Link></li>
                             <li>{props.Blogd}</li>
                         </ol>
                     </div>

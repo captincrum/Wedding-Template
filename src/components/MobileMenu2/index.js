@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Collapse, CardBody, Card } from 'reactstrap';
 import {Link} from 'react-router-dom'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -25,8 +24,7 @@ export default class MobileMenu2 extends Component {
 
     render() {
 
-        const { isMenuShow, isOpen } = this.state;
-
+        const { isMenuShow } = this.state;
         return (
             <div>
                 <div className={`mobileMenu ${isMenuShow ? 'show' : ''}`}>
@@ -41,6 +39,7 @@ export default class MobileMenu2 extends Component {
                         <li><AnchorLink href='#people'>People</AnchorLink></li>
                         <li><AnchorLink href='#event'>Events</AnchorLink></li>
                         <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
+                        <li><Link to='/blog-details'>Where to Stay</Link></li>
                         <li><Link to='/blog'>Things to Do</Link></li>
                     </ul>
 

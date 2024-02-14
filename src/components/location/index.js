@@ -17,51 +17,11 @@ const Location = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="ceromony-content ceromony-content2">
-                            <h3>Hotel Bookings</h3>
-                            <span>Date: Friday, September 20, 3:00 PM</span>
-                            <span>Address: 108 E. Superior Street, Chicago, Il 60611</span>
-                            <span>Phone: 312-337-2888</span>
-                            <p>Guests may call the hotel directly and ask for <b>Room Reservations</b>. The block is held under the name <b>Cline-McCrum</b></p>
-                            <p><a href="https://rb.gy/6nw6m" target="_blank" rel="noopener noreferrer">See Location</a></p>
-                        </div>
-                    </div>
-                    <div className="col-lg-5">
-                        <div className="ceromony-img">
-                            <img src={strory2} alt=""/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="service-area-menu">
-                <div className="Ceremony-wrap">
-                    <div className="row">
-                        <div className="col-lg-5">
-                            <div className="ceromony-img">
-                                <img src={strory3} alt=""/>
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="ceromony-content">
-                                <h3>Hotel Bookings</h3>
-                                <span>Date: Friday, September 20, 3:00 PM</span>
-                                <span>Address: 108 E. Superior Street, Chicago, Il 60611</span>
-                                <span>Phone: 312-337-2888</span>
-                                <p>Guests may call the hotel directly and ask for <b>Room Reservations</b>. The block is held under the name <b>Cline-McCrum</b></p>
-                                <p><a href="https://rb.gy/6nw6m" target="_blank" rel="noopener noreferrer">See Location</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="Ceremony-wrap">
-                <div className="row">
-                    <div className="col-lg-7">
-                        <div className="ceromony-content ceromony-content2">
                             <h3>Wedding Ceremony</h3>
                             <span>Saturday, September 21, 1:00 PM</span>
                             <span>6453 N Kenmore Ave, Chicago, IL 60660</span>
                             <p>Madonna della Strada is a chapel on the campus of Loyola University Chicago in the neighborhood of Rogers Park, Chicago: it is named after a painting of the Virgin Mary, known as Madonna Della Strada, enshrined at the Church of the Gesù in Rome, the mother church of the Society of Jesus.</p>
-                            <p><a href="https://shorturl.at/cgqtF" target="_blank" rel="noopener noreferrer">See Location</a></p>
+                            <p><a href="https://www.google.com/search?client=firefox-b-1-d&q=6453+N+Kenmore+Ave%2C+Chicago%2C+IL+60660" target="_blank" rel="noopener noreferrer">See Location</a></p>
                         </div>
                     </div>
                     <div className="col-lg-5">
@@ -82,10 +42,10 @@ const Location = () => {
                         <div className="col-lg-7">
                             <div className="ceromony-content">
                                 <h3>Wedding Reception</h3>
-                                <span>Saturday, September 21, 5:00 PM</span>
+                                <span>Saturday, September 21, 5:30 PM</span>
                                 <span>108 E Superior St, Chicago, IL 60611</span>
                                 <p>The Peninsula Chicago is the five-star hotel renowned for the warmth of its hospitality. The hotel has become an integral part of Chicago life and is considered the top choice for everything from accommodation to celebrations and corporate events. The Peninsula Chicago has proudly received a Forbes Travel Guide Five-Star rating each year since its opening. In 2023, The Peninsula Chicago was named the 'Best City Hotel in the Continental U.S' in Travel + Leisure's Worlds' Best Awards, and '#2 Hotel in the World' in LA LISTE's Top 1,000 World's Best Hotels.</p>
-                                <p><a href="https://rb.gy/6nw6m" target="_blank" rel="noopener noreferrer">See Location</a></p>
+                                <p><a href="https://www.google.com/search?client=firefox-b-1-d&q=108+E+Superior+St%2C+Chicago%2C+IL+60611" target="_blank" rel="noopener noreferrer">See Location</a></p>
                             </div>
                         </div>
                     </div>
