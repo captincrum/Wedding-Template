@@ -40,10 +40,8 @@ export default class MobileMenu extends Component {
                         <li><AnchorLink href='#people'>People</AnchorLink></li>
                         <li><AnchorLink href='#event'>Events</AnchorLink></li>
                         <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
-                        <li><AnchorLink  href='#rsvp'>Rsvp</AnchorLink></li>
-                        <li><Link to='/blog'>Blog</Link></li>
+                        <li><Link to='/blog'>Things to Do</Link></li>
                     </ul>
-                    
                 </div>
 
                 <div className="showmenu" onClick={this.menuHandler}><i className="fa fa-bars" aria-hidden="true"></i></div>         

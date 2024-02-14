@@ -13,21 +13,41 @@ const Location = () => {
     <div id="event" className="service-area section-padding">
         <div className="container">
             <Sectiontitle section={'When & Where'}/>
+            <div className="Ceremony-wrap">
+                <div className="row">
+                    <div className="col-lg-7">
+                        <div className="ceromony-content ceromony-content2">
+                            <h3>Hotel Bookings</h3>
+                            <span>Date: Friday, September 20, 3:00 PM</span>
+                            <span>Address: 108 E. Superior Street, Chicago, Il 60611</span>
+                            <span>Phone: 312-337-2888</span>
+                            <p>Guests may call the hotel directly and ask for <b>Room Reservations</b>. The block is held under the name <b>Cline-McCrum</b></p>
+                            <p><a href="https://rb.gy/6nw6m" target="_blank" rel="noopener noreferrer">See Location</a></p>
+                        </div>
+                    </div>
+                    <div className="col-lg-5">
+                        <div className="ceromony-img">
+                            <img src={strory2} alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div className="service-area-menu">
                 <div className="Ceremony-wrap">
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="ceromony-img">
-                                <img src={strory1} alt=""/>
+                                <img src={strory3} alt=""/>
                             </div>
                         </div>
                         <div className="col-lg-7">
                             <div className="ceromony-content">
-                                <h3>Rehearsal Dinner</h3>
-                                <span>Friday, September 20, 6:00 PM</span>
-                                <span>60 E Grand Ave, Chicago, IL 60611</span>
-                                <p>Joe’s Seafood, Prime Steak & Stone Crab is a dining destination for USDA Prime steaks, quality seafood and world-famous Florida Stone Crab claws. The restaurant offers a wide variety of seafood dishes including seasonal specialties like Sockeye Salmon, Bone-in Halibut, and Nantucket Cape Scallops.</p>
-                                <p><a href="https://rb.gy/sfpp0" target="_blank" rel="noopener noreferrer">See Location</a></p>
+                                <h3>Hotel Bookings</h3>
+                                <span>Date: Friday, September 20, 3:00 PM</span>
+                                <span>Address: 108 E. Superior Street, Chicago, Il 60611</span>
+                                <span>Phone: 312-337-2888</span>
+                                <p>Guests may call the hotel directly and ask for <b>Room Reservations</b>. The block is held under the name <b>Cline-McCrum</b></p>
+                                <p><a href="https://rb.gy/6nw6m" target="_blank" rel="noopener noreferrer">See Location</a></p>
                             </div>
                         </div>
                     </div>

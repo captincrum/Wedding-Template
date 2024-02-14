@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import 'react-sticky-header/styles.css';
 import MobileMenu2 from '../../components/MobileMenu2'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Header2 = () => {
 
@@ -19,13 +20,7 @@ const Header2 = () => {
                             <div className="header-menu d-lg-block d-none">
                                 <ul className=" mobail-menu d-flex">
                                     <li><Link to='/home'>Home</Link></li>
-                                    <li><Link to='/home'>Couple</Link></li>
-                                    <li><Link to='/home'>Story</Link></li>
-                                    <li><Link to='/home'>People</Link></li>
-                                    <li><Link to='/home'>Events</Link></li>
-                                    <li><Link to='/home'>Gallery</Link></li>
-                                    <li><Link to='/home'>Rsvp</Link></li>
-                                    <li><Link to='/blog'>Blog</Link></li>
+                                    <li><Link to='/blog'>Things to Do</Link></li>
                                 </ul>
                             </div>
                         </div>

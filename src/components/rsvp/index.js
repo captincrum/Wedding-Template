@@ -14,7 +14,7 @@ class Rsvp extends Component {
                                 <div className="col-12">
                                     <div className="section-title section-title4 text-center">
                                         <h2>Be Our Guest</h2>
-                                        <p>Please reserve before December 15th, 2018.</p>
+                                        <p>Please send your reservation by mail.</p>
                                     </div>
                                 </div>
                             </div>

@@ -7,10 +7,11 @@ import bride2 from '../../images/groomsmen-bridesmaid/2.jpg'
 import bride3 from '../../images/groomsmen-bridesmaid/3.jpg'
 import bride4 from '../../images/groomsmen-bridesmaid/4.jpg'
 import bride5 from '../../images/groomsmen-bridesmaid/5.jpg'
-import bride6 from '../../images/groomsmen-bridesmaid/7.jpg'
-import bride7 from '../../images/groomsmen-bridesmaid/6.jpg'
+import bride6 from '../../images/groomsmen-bridesmaid/6.jpg'
+import bride7 from '../../images/groomsmen-bridesmaid/7.jpg'
 import bride8 from '../../images/groomsmen-bridesmaid/8.jpg'
 import bride9 from '../../images/groomsmen-bridesmaid/9.jpg'
+import bride10 from '../../images/groomsmen-bridesmaid/10.jpg'
 import './style.css'
 
 const People = (props) => {
@@ -66,8 +67,8 @@ const People = (props) => {
                                                 <img src={bride2} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 2</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Patric Verdon</h3>
+                                                <span>Groomsman</span>
                                             </div>
                                         </div>
                                     </div>
@@ -77,8 +78,8 @@ const People = (props) => {
                                                 <img src={bride3} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 3</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Matt Cline</h3>
+                                                <span>Groomsman</span>
                                             </div>
                                         </div>
                                     </div>
@@ -88,8 +89,8 @@ const People = (props) => {
                                                 <img src={bride4} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 4</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Zack Proefriedt</h3>
+                                                <span>Groomsman</span>
                                             </div>
                                         </div>
                                     </div>
@@ -99,8 +100,8 @@ const People = (props) => {
                                                 <img src={bride5} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 5</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Chase Howland</h3>
+                                                <span>Groomsman</span>
                                             </div>
                                         </div>
                                     </div>
@@ -113,22 +114,11 @@ const People = (props) => {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="person-wrap">
                                             <div className="person-img">
-                                                <img src={bride5} alt=""/>
-                                            </div>
-                                            <div className="person-content">
-                                                <h3>Person 1</h3>
-                                                <span>Not Defined</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="person-wrap">
-                                            <div className="person-img">
                                                 <img src={bride6} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 2</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Maggie Verdon</h3>
+                                                <span>Matron Of Honor</span>
                                             </div>
                                         </div>
                                     </div>
@@ -138,8 +128,8 @@ const People = (props) => {
                                                 <img src={bride7} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 3</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Ali Dugan</h3>
+                                                <span>Bridesmaid</span>
                                             </div>
                                         </div>
                                     </div>
@@ -149,8 +139,8 @@ const People = (props) => {
                                                 <img src={bride8} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 4</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Julie Lois</h3>
+                                                <span>Bridesmaid</span>
                                             </div>
                                         </div>
                                     </div>
@@ -160,8 +150,19 @@ const People = (props) => {
                                                 <img src={bride9} alt=""/>
                                             </div>
                                             <div className="person-content">
-                                                <h3>Person 5</h3>
-                                                <span>Not Defined</span>
+                                                <h3>Molly Proefriedt</h3>
+                                                <span>Bridesmaid</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6">
+                                        <div className="person-wrap">
+                                            <div className="person-img">
+                                                <img src={bride10} alt=""/>
+                                            </div>
+                                            <div className="person-content">
+                                                <h3>Sara Howland</h3>
+                                                <span>Bridesmaid</span>
                                             </div>
                                         </div>
                                     </div>
