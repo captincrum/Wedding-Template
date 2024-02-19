@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 export default class MobileMenu2 extends Component {
@@ -33,12 +32,7 @@ export default class MobileMenu2 extends Component {
                         <h2><Link to='/home'>Shawn & Rachel</Link></h2>
                     </div>
                     <ul className="responsivemenu">
-                        <li><AnchorLink href='#home'>Home</AnchorLink></li>
-                        <li><AnchorLink href='#couple'>Couple</AnchorLink></li>
-                        <li><AnchorLink href='#story'>Story</AnchorLink></li>
-                        <li><AnchorLink href='#people'>People</AnchorLink></li>
-                        <li><AnchorLink href='#event'>Events</AnchorLink></li>
-                        <li><AnchorLink href='#gallery'>Gallery</AnchorLink></li>
+                        <li><Link to='/home'>Home</Link></li>
                         <li><Link to='/blog-details'>Where to Stay</Link></li>
                         <li><Link to='/blog'>Things to Do</Link></li>
                     </ul>
