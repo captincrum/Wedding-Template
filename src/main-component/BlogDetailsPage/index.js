@@ -46,6 +46,7 @@ const BlogPage = () => {
                                     <h3>Chicago Marriott Downtown Magnificent Mile</h3>
                                     <span>Address: 540 Michigan Avenue Chicago, IL 60611</span>
                                     <span>Phone: 1 312-836-0100</span>
+                                    <p>Whether it's you're first time exploring Chicago or you are returning, the dynamic views from these Marriott rooms will never grow old. Enjoy floor-to-ceiling windows overlooking the bustling street of the Magnificent Mile.</p>
                                     <p>Guests may call the hotel directly and ask for the <b>Cline McCrum Wedding Room Block</b></p>
                                     <p>Guests may use the link below to reserve a room. The room will automatically be added to the <b>Cline McCrum Wedding Room Block.</b></p>
                                     <p><b>** Transportation will be available from hotel to the church and back to the hotel following the service. **</b></p>

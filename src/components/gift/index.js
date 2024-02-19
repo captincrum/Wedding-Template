@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import gift1 from '../../images/gift/2.png'
-import gift2 from '../../images/gift/3.png'
-import gift3 from '../../images/gift/4.png'
-import gift4 from '../../images/gift/2.png'
+import gift1 from '../../images/gift/1.png'
+import gift2 from '../../images/gift/2.png'
+import gift3 from '../../images/gift/3.png'
+import gift4 from '../../images/gift/4.png'
 import './style.css'
 
 
@@ -57,10 +57,10 @@ class Gift extends Component {
                       <div className="col-lg-12">
                         <Slider {...settings}>
                             <div className="item">
-                                <img src={gift1} alt=""/>
+                                <a href="https://www.potterybarn.com/registry/search-registry.html" target="_blank" rel="noopener noreferrer"> <img src={gift1} alt=""/></a>
                             </div>
                             <div className="item">
-                                <img src={gift2} alt=""/>
+                                <a href="https://www.amazon.com/wedding/search" target="_blank" rel="noopener noreferrer"> <img src={gift2} alt=""/></a>
                             </div>
                             <div className="item">
                                 <img src={gift3} alt=""/>
