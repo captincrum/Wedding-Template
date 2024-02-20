@@ -55,7 +55,7 @@ const BlogPage = () => {
                                             <img src={mediaimg6} alt=""/>
                                             &nbsp; By <Link to="/blog">Rachel Cline</Link>
                                         </li>
-                                        <li>Octobor 12,2019</li>
+                                        <li>February 13,2024</li>
                                     </ul>
                                     <h3>Stroll Through Wrigleyville</h3>
                                     <span>Location: 1060 W Addison St, Chicago, IL 60613</span>
@@ -76,7 +76,7 @@ const BlogPage = () => {
                                             <img src={mediaimg6} alt=""/>
                                             &nbsp; By <Link to="/blog">Rachel Cline</Link>
                                         </li>
-                                        <li>Octobor 12,2019</li>
+                                        <li>February 19,2024</li>
                                     </ul>
                                     <h3>Shedd Aquarium</h3>
                                     <span>Location: 1200 S DuSable Lk Shr Dr, Chicago, IL 60605</span>

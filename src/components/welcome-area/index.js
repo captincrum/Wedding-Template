@@ -1,6 +1,5 @@
 import React from 'react'
 import './style.css'
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 
 const Welcome = () =>{
@@ -17,7 +16,6 @@ const Welcome = () =>{
                 </div>
             </div>
         </div>
-
     )
 }
 
