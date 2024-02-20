@@ -59,10 +59,10 @@ const BlogPage = () => {
                                     </ul>
                                     <h3>Stroll Through Wrigleyville</h3>
                                     <span>Location: 1060 W Addison St, Chicago, IL 60613</span>
-                                    <p>Duration:</p>
-                                    <p></p>
-                                    <p></p>
-                                    <p></p>
+                                    <p>Duration: 3 hours</p>
+                                    <p>Join the other 41,648 people for an exciting ball game. Watch our beloved Chicago Cubs play a game of baseball against the Nationals while embracing the magnificence that is Wrigley Field. Explore the neighborhood of Wrigleyville and see all that it has to offer. Surrounding Wrigley Field is a wealth of sports bars and eateries, perfect for game day or a casual day out.</p>
+                                    <p>Take a stroll through the very streets that the 2016 World Series Champions walked through after a nail-biting win against the Indians. Check out The Cubby Bear which was founded in 1953. This is one of the neighborhood’s premier spots for pre gaming and enjoying live music. Imagine what the scene was like at the Cubby Bear on that November night in 2016. </p>
+                                    <p>Though this northside community is named after it’s baseball field, Wrigleyville is packed with venues, nightlife, and outdoor spaces, making it a beautiful place for all people. Wrigleyville is just a short walk to the lake where you can enjoy some relaxation after cheering on the Cubbies! </p>
                                     <p></p>
                                 </div>
                             </div>
@@ -78,13 +78,14 @@ const BlogPage = () => {
                                         </li>
                                         <li>Octobor 12,2019</li>
                                     </ul>
-                                    <h3>Nature Boardwalk at Lincoln Park Zoo</h3>
-                                    <span>Location: 2121 N Stockton Dr, Chicago, IL 60614</span>
-                                    <p>Duration:</p>
-                                    <p></p>
-                                    <p></p>
-                                    <p></p>
-                                    <p></p>
+                                    <h3>Shedd Aquarium</h3>
+                                    <span>Location: 1200 S DuSable Lk Shr Dr, Chicago, IL 60605</span>
+                                    <p>Duration: 3-4 hours</p>
+                                    <p>Look nature in the eye! Explore one of the oldest aquariums in the U.S., opened in 1930. Emerge from the ocean into the extensive, all-new Caribbean reef habitat of the future with a walk-through tunnel. Become fully immersed in the beauty of a rich coral reef and a bustling underwater community. </p>
+                                    <p>Meet a penguin! During this 45-minute experience, you will go behind the scenes and see penguins explore, preen, play with toys, perch and gulp fish. *Not included in regular admission price.*</p>
+                                    <p>Don't forget to check out the dolphins while you are here; the Shedd is one of only three U.S. aquariums that house dolphins. After you check out the dolphins, head to the lower level, Wild Reef, to experience a 400,000-gallon habitat that's home to blacktip reef sharks, sandbars, spotted wobbogongs and zebra sharks! </p>
+                                    <p>Learn about Nickel, the Shedd's rescued green sea turtle, who has been the star of the Caribbean Reef habitat since 2003. She came to Shedd after surviving a boat collision that left a deep gash in her shell and affected her buoyancy-but not her ability to navigate her habitat with ease and learn behaviors that help the team care for her.</p>
+                                    <p>The Shedd is a fun and exciting place for all ages. I enjoyed my Senior Prom at the Shedd and hope that you too can enjoy some time at the Shedd and experience the great beauty that it offers while you are in Chicago this weekend.</p>
                                 </div>
                             </div>
                             <div className="post">

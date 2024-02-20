@@ -60,7 +60,7 @@ class Gift extends Component {
                                 <a href="https://www.potterybarn.com/registry/search-registry.html" target="_blank" rel="noopener noreferrer"> <img src={gift1} alt=""/></a>
                             </div>
                             <div className="item">
-                                <a href="https://www.amazon.com/wedding/search" target="_blank" rel="noopener noreferrer"> <img src={gift2} alt=""/></a>
+                                <a href="https://www.amazon.com/wedding/search" target="_blank" rel="noopener noreferrer"> <img src={gift2} alt=""/><p>Amazon</p></a>
                             </div>
                             <div className="item">
                                 <img src={gift3} alt=""/>
