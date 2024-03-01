@@ -57,13 +57,13 @@ class Gift extends Component {
                       <div className="col-lg-12">
                         <Slider {...settings}>
                             <div className="item">
-                                <a href="https://www.potterybarn.com/registry/search-registry.html" target="_blank" rel="noopener noreferrer"> <img src={gift1} alt=""/></a>
+                                <a href="https://www.potterybarn.com/registry/qsq2p79r6p/registry-list.html" target="_blank" rel="noopener noreferrer"> <img src={gift1} alt=""/></a>
                             </div>
                             <div className="item">
-                                <a href="https://www.amazon.com/wedding/search" target="_blank" rel="noopener noreferrer"> <img src={gift2} alt=""/></a>
+                                <a href="https://www.amazon.com/wedding/registry/3APW0OZV8YOBG?ref=wr_search_page_result_1" target="_blank" rel="noopener noreferrer"> <img src={gift2} alt=""/></a>
                             </div>
                             <div className="item">
-                                <a href="https://www.crateandbarrel.com/wedding-gift-registry/" target="_blank" rel="noopener noreferrer"> <img src={gift3} alt=""/></a>
+                                <a href="https://www.crateandbarrel.com/gift-registry/rachel-cline-and-shawn-mccrum/r7049995" target="_blank" rel="noopener noreferrer"> <img src={gift3} alt=""/></a>
                             </div>
                             <div className="item">
                                 <a href="https://www.target.com/gift-registry/gift/rachel-and-shawn-2024" target="_blank" rel="noopener noreferrer"> <img src={gift4} alt=""/></a>
