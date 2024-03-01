@@ -50,7 +50,7 @@ class Gift extends Component {
                     <div className="col-12">
                       <div className="section-title text-center">
                           <h2>Gift Registration</h2>
-                          <p>Here are some of the locations Rachel and Shawn have registered at.</p>
+                          <p>Scroll across to see where we are registered. When searching for our registry, use Colorado or Illinois for the location.</p>
                       </div>
                   </div>
                   <div className="row gift-item">
@@ -63,22 +63,10 @@ class Gift extends Component {
                                 <a href="https://www.amazon.com/wedding/search" target="_blank" rel="noopener noreferrer"> <img src={gift2} alt=""/></a>
                             </div>
                             <div className="item">
-                                <img src={gift3} alt=""/>
+                                <a href="https://www.crateandbarrel.com/wedding-gift-registry/" target="_blank" rel="noopener noreferrer"> <img src={gift3} alt=""/></a>
                             </div>
                             <div className="item">
-                                <img src={gift4} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift1} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift2} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift3} alt=""/>
-                            </div>
-                            <div className="item">
-                                <img src={gift4} alt=""/>
+                                <a href="https://www.target.com/gift-registry/gift/rachel-and-shawn-2024" target="_blank" rel="noopener noreferrer"> <img src={gift4} alt=""/></a>
                             </div>
                             </Slider>
                       </div>
