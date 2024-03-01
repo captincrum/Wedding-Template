@@ -7,17 +7,18 @@ import gift2 from '../../images/gift/2.png'
 import gift3 from '../../images/gift/3.png'
 import gift4 from '../../images/gift/4.png'
 import './style.css'
+import Sectiontitle from "../section-title";
 
 
 class Gift extends Component {
     render() {
       var settings = {
         dots: false,
-        arrows: false,
+        arrows: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay:false,
+        autoplay:true,
         autoplaySpeed:1500,
         responsive: [
             {
@@ -45,12 +46,12 @@ class Gift extends Component {
           ]
       };
       return (
-          <div className="gift-area">
+          <div id="gift" className="gift-area section-padding">
               <div className="container">
                     <div className="col-12">
                       <div className="section-title text-center">
-                          <h2>Gift Registration</h2>
-                          <p>Scroll across to see where we are registered. This is under construction and will be complete soon!.</p>
+                          <Sectiontitle section={'Gift Registration'}/>
+                          <p>Scroll across to see where we are registered. This is under construction and will be complete soon!</p>
                       </div>
                   </div>
                   <div className="row gift-item">
@@ -73,7 +74,7 @@ class Gift extends Component {
                   </div>
               </div>
           </div>
-      );7
+      )
     }
   }
 
