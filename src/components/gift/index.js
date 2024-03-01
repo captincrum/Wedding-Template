@@ -50,7 +50,7 @@ class Gift extends Component {
                     <div className="col-12">
                       <div className="section-title text-center">
                           <h2>Gift Registration</h2>
-                          <p>Scroll across to see where we are registered. When searching for our registry, use Colorado or Illinois for the location.</p>
+                          <p>Scroll across to see where we are registered. This is under construction and will be complete soon!.</p>
                       </div>
                   </div>
                   <div className="row gift-item">
@@ -73,7 +73,7 @@ class Gift extends Component {
                   </div>
               </div>
           </div>
-      );
+      );7
     }
   }
 
