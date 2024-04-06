@@ -24,7 +24,7 @@ const People = (props) => {
 
         <div id="people" className="person-area section-padding pb-70">
             <div className="container">
-                <Sectiontitle section={'Groomsmen & Bridesmaid'}/>
+                <Sectiontitle section={'Groomsmen & Bridesmaids'}/>
                 <div className="person-area-menu">
                     <div className="person-btn">
                         <Nav tabs>
@@ -33,7 +33,7 @@ const People = (props) => {
                                 className={classnames({ active: activeTab === '1' })}
                                 onClick={() => { toggle('1'); }}
                             >
-                                Groomsman
+                                Groomsmen
                             </NavLink>
                             </NavItem>
                             <NavItem>
@@ -41,7 +41,7 @@ const People = (props) => {
                                 className={classnames({ active: activeTab === '2' })}
                                 onClick={() => { toggle('2'); }}
                             >
-                                Bridemaids
+                                Bridesmaids
                             </NavLink>
                             </NavItem>
                         </Nav>
@@ -129,7 +129,7 @@ const People = (props) => {
                                             </div>
                                             <div className="person-content">
                                                 <h3>Ali Dugan</h3>
-                                                <span>Bridesmaid</span>
+                                                <span>Bridesmaids</span>
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +140,7 @@ const People = (props) => {
                                             </div>
                                             <div className="person-content">
                                                 <h3>Julie Lois</h3>
-                                                <span>Bridesmaid</span>
+                                                <span>Bridesmaids</span>
                                             </div>
                                         </div>
                                     </div>
@@ -151,7 +151,7 @@ const People = (props) => {
                                             </div>
                                             <div className="person-content">
                                                 <h3>Molly Proefriedt</h3>
-                                                <span>Bridesmaid</span>
+                                                <span>Bridesmaids</span>
                                             </div>
                                         </div>
                                     </div>
@@ -162,7 +162,7 @@ const People = (props) => {
                                             </div>
                                             <div className="person-content">
                                                 <h3>Sara Howland</h3>
-                                                <span>Bridesmaid</span>
+                                                <span>Bridesmaids</span>
                                             </div>
                                         </div>
                                     </div>

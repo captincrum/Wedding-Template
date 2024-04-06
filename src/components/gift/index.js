@@ -51,7 +51,7 @@ class Gift extends Component {
                     <div className="col-12">
                       <div className="section-title text-center">
                           <Sectiontitle section={'Gift Registration'}/>
-                          <p>Scroll across to see where we are registered. This is under construction and will be complete soon!</p>
+                          <p>Scroll across to see where we are registered.</p>
                       </div>
                   </div>
                   <div className="row gift-item">
